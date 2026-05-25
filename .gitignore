@@ -1,0 +1,20 @@
+# Build and Dependencies
+build/
+bin/
+lib/
+.uv/
+.venv/
+__pycache__/
+*.egg-info/
+
+# Storage and Logs
+*.aof
+*.db
+*.log
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Configuration and Security
+.env
