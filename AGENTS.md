@@ -30,7 +30,7 @@ Adhere to standard high-performance systems programming guidelines. When generat
 
 ### 3. Cache-Friendly Code
 
-* **Rule:** Prioritize sequential memory access. Relational databases depend heavily on CPU cache locality. 
+* **Rule:** Prioritize sequential memory access. Relational databases depend heavily on CPU cache locality.
 * **Example:** Keep vector elements contiguous. Avoid excessive pointer-chasing through deeply nested heap allocations (`std::shared_ptr` / `std::unique_ptr`) inside core row iteration loops unless absolutely necessary for lifetime management.
 
 ---
