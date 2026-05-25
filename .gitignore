@@ -7,6 +7,12 @@ lib/
 __pycache__/
 *.egg-info/
 
+# IDE and Editor Workspace Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
 # Storage and Logs
 *.aof
 *.db
